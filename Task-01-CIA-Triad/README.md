@@ -1,15 +1,16 @@
-#CIA Triad
-  Confidentiality, Integrity, and Availability.
-  It explains how each component is implemented to protect data, ensure accuracy, and maintain system accessibility.
-  Demonstration of how Linux file permissions support CIA principles.
+## CIA Triad
 
-#Contents
-  Introduction to CIA Triad
-  Definitions in simple words
-  Real-world examples with CIA application
-  Linux permissions demo
+Confidentiality, Integrity, and Availability are the three core principles of cybersecurity.  
+This task explains how each component is implemented to protect data, ensure accuracy, and maintain system accessibility.  
+It also demonstrates how Linux file permissions support CIA principles.
 
-#Conclusion on CIA
-  Learning Outcomes
-  Understand the CIA Triad model
-  Identify security measures in real-world systems
+### Contents
+- Introduction to CIA Triad  
+- Definitions in simple words  
+- Real-world examples with CIA application  
+- Linux permissions demo  
+- Conclusion on CIA
+  
+###Learning Outcomes###
+- Understand the CIA Triad model  
+- Identify security measures in real-world systems  
