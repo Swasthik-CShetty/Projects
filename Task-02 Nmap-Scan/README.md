@@ -3,7 +3,7 @@
 **Author:** Swasthik C Shetty  
 **Date:** 12 August 2025  
 
-## 📌 Overview
+## Overview
 Nmap (Network Mapper) is an open-source tool used to scan IP addresses, ports, and services in a network. It helps identify active hosts, running services, operating systems, and potential vulnerabilities.
 
 ---
