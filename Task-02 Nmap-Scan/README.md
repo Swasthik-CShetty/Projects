@@ -35,3 +35,6 @@ nmap -p- scanme.nmap.org
 ### 7. Nmap Help
 Displays all available flags and options.
 nmap -h
+
+## Observation
+## SConclusion
