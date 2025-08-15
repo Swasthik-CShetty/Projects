@@ -14,7 +14,7 @@ The goal is to identify missing or misconfigured headers, check SSL/TLS configur
 |------------------------|-------|---------------------------------------------------------------------------------|----------------|-----------------------------|
 | **YouTube.com**        | A     | Referrer-Policy                                                                 | Yes            | Valid (SHA256), expires in 45 days |
 | **OWASP Juice Shop**   | D     | Strict-Transport-Security, Content-Security-Policy, Referrer-Policy, Permissions-Policy | No     | Valid (SHA256), expires 15 Oct 2025 |
-| **Itsecgames.com**     | F     | Content-Security-Policy, X-Frame-Options, X-Content-Type-Options                 | No            | Valid (SHA256), domain mismatch, expires in 81 days |
+| **Itsecgames.com**     | F     | Content-Security-Policy, X-Frame-Options, X-Content-Type-Options ,Referrer-Policy, Permissions-Policy| No  | Valid (SHA256), domain mismatch, expires in 81 days |
 | **Ujartechsolutions.in**| A    | Referrer-Policy, Permissions-Policy                                             | Yes            | Valid (ECDSA), expires 20 Oct 2025 |
 
 ## Key Security Headers
