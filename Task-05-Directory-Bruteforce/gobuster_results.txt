@@ -1,0 +1,6 @@
+/.bashrc             [32m (Status: 200)[0m [Size: 5551]
+/.cache              [36m (Status: 301)[0m [Size: 0][34m [--> /.cache/][0m
+/.config             [36m (Status: 301)[0m [Size: 0][34m [--> /.config/][0m
+/.profile            [32m (Status: 200)[0m [Size: 807]
+/.bash_history       [32m (Status: 200)[0m [Size: 3981]
+/hidden              [36m (Status: 301)[0m [Size: 0][34m [--> /hidden/][0m
