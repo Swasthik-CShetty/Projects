@@ -4,7 +4,7 @@
 - Wireshark 
 ---
 
-## 📌 Steps Performed
+## Steps Performed
 1. Installed Wireshark and ran it with administrator/root permissions.  
 2. Selected the active network interface.  
 3. Started live capture.  
@@ -22,7 +22,7 @@
 
 ---
 
-## 🔍 Filters Used
+## Filters Used
 - **HTTP Requests** → `http.request`  
 - **DNS Queries** → `dns`  
 - **TCP 3-Way Handshake** → `tcp.flags.syn == 1 && tcp.flags.ack == 0`  
@@ -31,7 +31,7 @@
 
 ---
 
-## 📊 Interesting Findings
+## Interesting Findings
 1. **DNS Lookup**  
    - Observed query for `example.com` resolving to its IP address.  
 
