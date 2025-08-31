@@ -35,7 +35,7 @@ SQL Injection (SQLi)
 Cross-Site Scripting (XSS)
 Cross-Site Request Forgery (CSRF)
 A detailed HTML report was generated for documentation.
----
+
 ## Conclusion
 The project provides practical experience in assessing web application security. Tools like Nikto, Nmap, and OWASP ZAP help identify vulnerabilities, understand their impact, and suggest mitigation techniques. This knowledge forms a foundation for penetration testing and web security practices.
 
