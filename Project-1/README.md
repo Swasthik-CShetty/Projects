@@ -23,11 +23,11 @@ This project focuses on identifying and analyzing security vulnerabilities in a 
 #### Nikto Scan
 Nikto was used to check for common web server vulnerabilities:
 nikto -h http://localhost/dvwa
-#### 3.Nmap Scan
+#### Nmap Scan
 Nmap was used to identify open ports and detect vulnerabilities:
 nmap -sV -A localhost
 nmap --script vuln -p 80,3306 localhost
-#### 4.Web Application Analysis with OWASP ZAP
+#### Web Application Analysis with OWASP ZAP
 OWASP ZAP was configured as a proxy to intercept DVWA traffic.
 The website was spidered to map all pages and parameters.
 An active scan identified vulnerabilities such as:
@@ -35,7 +35,8 @@ SQL Injection (SQLi)
 Cross-Site Scripting (XSS)
 Cross-Site Request Forgery (CSRF)
 A detailed HTML report was generated for documentation.
-##Conclusion
+---
+## Conclusion
 The project provides practical experience in assessing web application security. Tools like Nikto, Nmap, and OWASP ZAP help identify vulnerabilities, understand their impact, and suggest mitigation techniques. This knowledge forms a foundation for penetration testing and web security practices.
 
 
