@@ -29,7 +29,7 @@ Prevents SQL injection using parameterized queries.
 **Session Management**
 User sessions are tracked securely with Flask sessions.
 
-##How it Works
+## How it Works
 **Signup**
 
 User enters a new username & password.
