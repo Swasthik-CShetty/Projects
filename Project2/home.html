@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Home</title></head>
+<body>
+  <h2>Welcome, {{user}}!</h2>
+  <p>You are logged in securely.</p>
+  <a href="/logout">Logout</a>
+  {% with messages = get_flashed_messages() %}
+    {% for msg in messages %}<p style="color:green">{{msg}}</p>{% endfor %}
+  {% endwith %}
+</body>
+</html>

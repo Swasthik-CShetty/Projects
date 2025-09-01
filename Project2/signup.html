@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Signup</title></head>
+<body>
+  <h2>Signup</h2>
+  <form method="POST">
+    Username: <input type="text" name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    <button type="submit">Signup</button>
+  </form>
+  <p>Already have an account? <a href="/login">Login</a></p>
+  {% with messages = get_flashed_messages() %}
+    {% for msg in messages %}<p style="color:red">{{msg}}</p>{% endfor %}
+  {% endwith %}
+</body>
+</html>
