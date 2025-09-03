@@ -15,3 +15,6 @@ Programming Language: Python 3
 
 Library: Scapy (for capturing and analyzing packets)
 
+4. Conclusion
+
+This project demonstrates how network traffic can be captured, filtered, and analyzed using Python and Scapy. By logging packet headers and payloads, users gain insights into network communication patterns, detect unauthorized traffic, and learn the basics of protocol analysis.
