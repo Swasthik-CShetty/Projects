@@ -50,3 +50,19 @@ View logs
 Output :
 <img width="1280" height="800" alt="Screenshot_2025-09-03_10_45_23" src="https://github.com/user-attachments/assets/85ce9ff1-73da-4e5a-94dd-86f63e3a993d" />
 
+5. Conclusion
+
+This project successfully demonstrates how file integrity can be monitored using hashing. The tool provides a simple yet effective way to detect unauthorized changes in files. By automating checks with cron, it ensures continuous monitoring. Through this project, I learned how to use hashing for security, work with JSON for structured data storage, and automate tasks using cron jobs.
+
+6. Challenges Faced 
+
+Encountered a JSONDecodeError when hashes.json was empty. Fixed it by re-initializing the file.
+
+Needed to use absolute paths in cron jobs because relative paths caused failures.
+
+Learned how to secure log files with Linux permissions to prevent tampering.
+
+7. References
+
+Python official documentation – hashlib
+
