@@ -1,0 +1,6 @@
+2025-09-03T10:38:34 - Stored hash (sha256) for /home/swasthikcshetty/FileIntegrityChecker/important.txt: 4b973dbcb9b0cb029885d8c3671ce0a5395d767504d4239397963799879d08e3
+2025-09-03T10:38:34 - Stored hash (sha256) for /home/swasthikcshetty/FileIntegrityChecker/app.cfg: 0c7bc96f1b174fe196b834873b87d9bbb23826bd210a40d93e737f3843161cad
+2025-09-03T10:39:35 - Integrity verified for /home/swasthikcshetty/FileIntegrityChecker/important.txt
+2025-09-03T10:39:35 - Integrity verified for /home/swasthikcshetty/FileIntegrityChecker/app.cfg
+2025-09-03T10:43:48 - TAMPERING DETECTED in /home/swasthikcshetty/FileIntegrityChecker/important.txt - Expected 4b973dbcb9b0cb029885d8c3671ce0a5395d767504d4239397963799879d08e3, Found 6529f2a132e7059caae8a07a533b42401603b7d371d91b0d5cae0a873d015e3b
+2025-09-03T10:43:48 - Integrity verified for /home/swasthikcshetty/FileIntegrityChecker/app.cfg

@@ -1,0 +1,10 @@
+{
+  "/home/swasthikcshetty/FileIntegrityChecker/important.txt": {
+    "hash": "4b973dbcb9b0cb029885d8c3671ce0a5395d767504d4239397963799879d08e3",
+    "algo": "sha256"
+  },
+  "/home/swasthikcshetty/FileIntegrityChecker/app.cfg": {
+    "hash": "0c7bc96f1b174fe196b834873b87d9bbb23826bd210a40d93e737f3843161cad",
+    "algo": "sha256"
+  }
+}
