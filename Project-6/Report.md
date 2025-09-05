@@ -45,4 +45,8 @@ Blocked Ping: Request timed out confirms ICMP is blocked.
 Port Scan (Nmap): Only 22 and 80 open; other ports filtered.
 <img width="824" height="609" alt="image" src="https://github.com/user-attachments/assets/9bd1dee3-fda0-4270-9838-7fe039fc67a3" />
 
+Conclusion
+
+The firewall successfully restricts access to only the required services (SSH and HTTP) while blocking all other traffic. Blocked ping and filtered ports demonstrate the effectiveness of the firewall. This project highlights the importance of firewall configuration in securing networked systems.
+
 
