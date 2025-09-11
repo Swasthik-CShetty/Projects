@@ -1,8 +1,4 @@
-# Project 9 — Man-in-the-Middle (MITM) Attack Simulation
-
-**Course / Lab:** Network Security / Ethical Hacking Lab  
-**Author:** <Your Name>  
-**Date:** <Submission date>  
+# Project 9 — Man-in-the-Middle (MITM) Attack Simulation  
 
 ---
 
@@ -17,12 +13,11 @@ This project simulates an ARP spoofing-based MITM attack within a VM lab setup. 
 ---
 
 ## 3. Tools Used
-- **Host OS:** <Your Host OS, e.g., Ubuntu 24.04 LTS>  
-- **Virtualization:** VirtualBox / VMware Workstation (bridged network mode)  
+- **Host OS:** <Host OS, e.g., Ubuntu 24.04 LTS>  
+- **Virtualization:** VMware Workstation (bridged network mode)  
 - **Attacker VM:** Kali Linux — Tools: Ettercap, MITMf, tcpdump  
-- **Victim VM:** Ubuntu / Windows with a vulnerable HTTP test web app (e.g., DVWA or custom login form)  
+- **Victim VM:** Ubuntu with a vulnerable HTTP test web app 
 - **Analysis Tool:** Wireshark  
-- **Other Resources:** OWASP documentation, RFC 826 (ARP), tool manuals  
 
 ---
 
@@ -36,7 +31,7 @@ This project simulates an ARP spoofing-based MITM attack within a VM lab setup. 
 ### 4.2 Attack / Data Collection
 4. The attacker launched ARP spoofing using Ettercap/MITMf to redirect victim traffic through the attacker.  
 5. The victim attempted a login on the HTTP web app using test credentials.  
-6. Traffic was captured and saved to a `.pcap` file.  
+6. Traffic was captured.  
 
 ### 4.3 Analysis
 7. Wireshark was used to analyze the captured traffic. HTTP POST requests showed credentials in plaintext.  
@@ -90,16 +85,8 @@ The project successfully demonstrated a MITM attack using ARP spoofing in a cont
 ---
 
 ## 8. References
-1. Ettercap Project Documentation – [https://www.ettercap-project.org](https://www.ettercap-project.org)  
-2. MITMf GitHub Repository – [https://github.com/byt3bl33d3r/MITMf](https://github.com/byt3bl33d3r/MITMf)  
-3. Wireshark User Guide – [https://www.wireshark.org/docs/](https://www.wireshark.org/docs/)  
-4. OWASP Testing Guide – “Man-in-the-Middle Attack”  
-5. RFC 826 — Address Resolution Protocol (ARP)  
+1. Ettercap Project   
+2. Wireshark
+3. YouTube   
 
----
-
-## Appendix
-- **Appendix A:** VM configurations (RAM, CPU, NIC type, IPs).  
-- **Appendix B:** Capture metadata (pcap filename, size, packet count).  
-- **Appendix C:** Redacted packet extracts.  
-- **Appendix D:** Sample IDS/IPS ARP spoofing detection rules.  
+--- 
