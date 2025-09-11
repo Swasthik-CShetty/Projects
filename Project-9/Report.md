@@ -46,19 +46,23 @@ This project simulates an ARP spoofing-based MITM attack within a VM lab setup. 
 ## 5. Screenshots / Outputs
 
 ### Ettercap Host Scanning
-![Ettercap Host Scan](Screenshot%202025-09-11%20231538.png)
+![Ettercap Host Scan](<img width="857" height="542" alt="Screenshot 2025-09-11 231538" src="https://github.com/user-attachments/assets/b964b4fc-58ca-44c7-be9b-5045096183e1" />)
+
 
 ### Ettercap MITM Menu (ARP Poisoning)
-![Ettercap ARP Poisoning Menu](Screenshot%202025-09-11%20231550.png)
+![Ettercap ARP Poisoning Menu](<img width="745" height="491" alt="Screenshot 2025-09-11 231550" src="https://github.com/user-attachments/assets/0d8ae416-265b-4363-9f9e-34bb14405332" />)
 
 ### ARP Poisoning Options Dialog
-![Ettercap ARP Options](Screenshot%202025-09-11%20231604.png)
+![Ettercap ARP Options](<img width="812" height="508" alt="Screenshot 2025-09-11 231604" src="https://github.com/user-attachments/assets/5ef0d32b-9323-4f95-a6ea-3360c9267c84" />
+)
 
 ### Wireshark Capture of ICMP Packets
-![Wireshark ICMP Capture](Screenshot%202025-09-11%20231628.png)
+![Wireshark ICMP Capture](<img width="874" height="649" alt="Screenshot 2025-09-11 231628" src="https://github.com/user-attachments/assets/c27e73e8-15dd-4f66-826b-f71675b75360" />
+)
 
 ### ARP Table Showing Poisoned Entries
-![ARP Table Result](Screenshot%202025-09-11%20231648.png)
+![ARP Table Result](<img width="847" height="351" alt="Screenshot 2025-09-11 231648" src="https://github.com/user-attachments/assets/dfee6dd5-8376-435d-92e7-571c67db3cff" />
+)
 
 **Sample redacted HTTP POST request:**
 ```
