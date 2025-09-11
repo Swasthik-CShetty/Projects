@@ -26,6 +26,8 @@ Passwords are still one of the most widely used methods of authentication, but w
 
 <img width="1280" height="800" alt="OutputScreenshot" src="https://github.com/user-attachments/assets/38a208bf-d9d9-453f-9071-1655b4984644" />
 <img width="1280" height="800" alt="Screenshot" src="https://github.com/user-attachments/assets/aa1ec083-5b49-4480-8405-35e9b4c832d8" />
+<img width="1280" height="800" alt="Screenshot_04" src="https://github.com/user-attachments/assets/328f99be-ed21-42c9-9b0a-88473be3db13" />
+
 
 
 ### Sample Results Table
